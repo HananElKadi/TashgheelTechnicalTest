@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>University System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>University Management System</h1>
+
+    <section id="universities-section">
+      <h2>Universities</h2>
+      <form id="university-form">
+        <input
+          type="text"
+          id="university-name"
+          placeholder="University Name"
+          required
+        />
+        <button type="submit">Add University</button>
+      </form>
+      <ul id="university-list"></ul>
+    </section>
+
+    <section id="students-section">
+      <h2>Students</h2>
+      <form id="student-form">
+        <input
+          type="text"
+          id="student-name"
+          placeholder="Student Name"
+          required
+        />
+        <select id="university-select"></select>
+        <button type="submit">Add Student</button>
+      </form>
+      <ul id="student-list"></ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
